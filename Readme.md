@@ -1,0 +1,1 @@
+These are some commonly asked coding questions in interviews
