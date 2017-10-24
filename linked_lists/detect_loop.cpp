@@ -15,10 +15,10 @@ int detectloop(Node *head)
    // your code here
    Node *x = head;
    Node *y = head;
-   while(x&&y && y->next!=NULL)
+   while(x && y && y->next != NULL)
    {
-       x= x->next;
-       y=y->next->next;
+       x = x->next;
+       y = y->next->next;
        if(x == y)
        return 1;
       
