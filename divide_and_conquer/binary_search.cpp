@@ -5,7 +5,7 @@ Driver Code to call/invoke your function would be added by GfG's Online Judge.*/
 
 
 /*You need to complete this function */
-int bin_search(int A[], int left, int right, int k)
+int binary_search(int A[], int left, int right, int k)
 {
         if(right < left)
             return -1;
