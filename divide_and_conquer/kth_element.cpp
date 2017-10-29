@@ -45,8 +45,6 @@ int main()
 			j++;
 			k++;
 		}
-		//for(int i=0;i<k;i++)
-		//	cout<<res[i]<<" ";
 		cout<<res[e-1]<<endl;
 
 	}
