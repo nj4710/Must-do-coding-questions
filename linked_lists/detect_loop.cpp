@@ -20,8 +20,7 @@ int detectloop(Node *head)
        x= x->next;
        y=y->next->next;
        if(x == y)
-       return 1;
-      
+       return 1;  
    }
    return 0;
 }
