@@ -4,17 +4,14 @@
 #include <limits.h>
 using namespace std;
 
-int main()
-{
+int main() {
 	int t,n;
 	cin>>t;
-	while(t > 0)
-	{
+	while(t > 0) {
 		cin>>n;
 		vector <int> arr(n);
 		int result = 0;
-		for(int i=0;i<n;i++)
-		{
+		for(int i=0;i<n;i++) {
 			cin>>arr[i];
 			result = result ^ arr[i];
 		}
