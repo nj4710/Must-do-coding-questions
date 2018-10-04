@@ -13,8 +13,7 @@ int main()
 {
 	int t,n;
 	cin>>t;
-	while(t>0)
-	{
+	while(t>0) {
 		cin>>n;
 		vector <int> arr(n);
 		int low = 0,mid=0,high = n-1;
